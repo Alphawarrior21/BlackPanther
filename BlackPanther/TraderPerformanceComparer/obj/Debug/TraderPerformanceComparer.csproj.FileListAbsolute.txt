@@ -1,0 +1,97 @@
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe.config
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.dll
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.xml
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.g.cs
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.g.cs
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.cache
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.lref
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.baml
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.baml
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.g.resources
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.Properties.Resources.resources
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csproj.GenerateResource.Cache
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit\documents\visual studio 2015\Projects\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe.config
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.dll
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.xml
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.cache
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.lref
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.baml
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.baml
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.g.resources
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.Properties.Resources.resources
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csproj.GenerateResource.Cache
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Desktop\TraderPerformanceComparer\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe.config
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.dll
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.xml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.lref
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.baml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.baml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.g.resources
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.Properties.Resources.resources
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csproj.GenerateResource.Cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe.config
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.dll
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\bin\Debug\MahApps.Metro.xml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.lref
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\App.baml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\MainWindow.baml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.g.resources
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.Properties.Resources.resources
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csproj.GenerateResource.Cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V3.0\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csprojResolveAssemblyReference.cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe.config
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\MahApps.Metro.dll
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\bin\Debug\MahApps.Metro.xml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\MainWindow.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\App.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer_MarkupCompile.lref
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\App.baml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\MainWindow.baml
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.g.resources
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.Properties.Resources.resources
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csproj.GenerateResource.Cache
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.exe
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.pdb
+C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerformanceComparer_V4.0\TraderPerformanceComparer\obj\Debug\TraderPerformanceComparer.csprojResolveAssemblyReference.cache

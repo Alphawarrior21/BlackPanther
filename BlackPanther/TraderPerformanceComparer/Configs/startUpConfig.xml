@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>   
+<UserIds>
+<TraderId>T64</TraderId>
+<TraderId>T70</TraderId>
+<TraderId>T25</TraderId>
+<TraderId>T68</TraderId>
+<TraderId>T36</TraderId>
+<TraderId>T66</TraderId>
+<TraderId>T38</TraderId>
+<TraderId>T39</TraderId>
+<TraderId>T40</TraderId>
+<TraderId>T62</TraderId>
+<TraderId>T21</TraderId>
+<TraderId>T23</TraderId>
+<TraderId>T61</TraderId>
+<TraderId>T65</TraderId>
+<TraderId>T69</TraderId>
+<TraderId>T63</TraderId>
+<TraderId>T22</TraderId>
+<TraderId>T67</TraderId>
+<TraderId>T37</TraderId>
+<TraderId>T24</TraderId>
+<TraderId>T75</TraderId>
+<TraderId>T81</TraderId>
+<TraderId>T83</TraderId>
+<TraderId>T84</TraderId>
+<TraderId>Console</TraderId>
+<TraderId>Console_NSE</TraderId>
+</UserIds>
+<amtDataBase>
+   <dbName>prodtest</dbName>
+  <host>192.168.2.2</host>
+    <basicPort>5432</basicPort>
+    <userName>amt</userName>
+    <passWord>amt</passWord>
+  </amtDataBase>
+</root>

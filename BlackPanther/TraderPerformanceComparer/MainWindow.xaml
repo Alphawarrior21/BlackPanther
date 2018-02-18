@@ -1,0 +1,118 @@
+﻿<Controls:MetroWindow x:Class="TraderPerformanceComparer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+        xmlns:cmd="clr-namespace:TraderPerformanceComparer.Commands"
+        xmlns:local="clr-namespace:TraderPerformanceComparer"
+        xmlns:customGrid="clr-namespace:TraderPerformanceComparer.CustomControls"
+        xmlns:conv="clr-namespace:TraderPerformanceComparer.Assets"
+        mc:Ignorable="d"
+        Dialog:DialogParticipation.Register="{Binding}"
+        Title="TRADE PERFORMANCE COMPARISON"
+        Height="1000" Width="1200"  SaveWindowPosition="True" WindowTransitionsEnabled="True" ResizeMode="CanResizeWithGrip" GlowBrush="Black" BorderThickness="0">
+    <Window.Resources>
+        <conv:WinnerHighLightConvertor x:Key="xWinnerHighLightConvertor"/>
+        <Style TargetType="DataGridCell">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+        </Style>
+    </Window.Resources>
+
+    <customGrid:CustomGrid GridLineBrush="DodgerBlue" GridLineThickness="2" GridLinesVisibility="Both" ShowCustomGridLines="True">
+        <customGrid:CustomGrid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="50"/>
+        </customGrid:CustomGrid.RowDefinitions>
+
+        <customGrid:CustomGrid ShowCustomGridLines="True" GridLineThickness="1" GridLinesVisibility="Both" Grid.Row="0">
+            <customGrid:CustomGrid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+               
+            </customGrid:CustomGrid.RowDefinitions>
+            <customGrid:CustomGrid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+            </customGrid:CustomGrid.ColumnDefinitions>
+
+            <RadioButton x:Name="DataFromDB" IsChecked="{Binding IsDataFromDbSelectedRadioBtnFlag,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Content="DB"  Grid.Row="0" Grid.Column="0"/>
+            <CheckBox x:Name="Live_DB" IsChecked="{Binding IsLive,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Content="LIVE"  Grid.Row="0" Grid.Column="2" Margin="20,0,0,0"/>
+            <CheckBox x:Name="Hist_DB" IsChecked="{Binding IsHist,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Content="HISTORY"  Grid.Row="0" Grid.Column="2" Margin="90,0,0,0"/>
+            <RadioButton x:Name="DataFromFile" IsChecked="{Binding IsDataFromFileSelectedRadioBtnFlag,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Content="File"  Grid.Row="0" Grid.Column="0" Margin="61,0,64,0"/>
+            <RadioButton x:Name="DataFromDBandFile" IsChecked="{Binding IsDataFromDbAndFileRadioBtnFlag,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Content="CSV"  Grid.Row="0" Grid.Column="0" Margin="118,0,5,0" />
+            <ComboBox x:Name="FirstUser" Grid.Row="1" ItemsSource="{Binding ListOfParticipants,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"  SelectedItem="{Binding SelectedItemUser1CmbBox,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedIndex="{Binding SelectedIndexUser1CmbBox,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+            <ComboBox x:Name="SecondUser" Grid.Row="3" ItemsSource="{Binding ListOfParticipants,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedItem="{Binding SelectedItemUser2CmbBox,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedIndex="{Binding SelectedIndexUser2CmbBox,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+            <TextBlock x:Name="datePicker_From_Lable" Grid.Row="2" Grid.Column="1" Text="Date from : " FontFamily="Calibri" TextAlignment="Center" VerticalAlignment="Center"/>
+            <DatePicker x:Name="datePicker_textbox_from"  IsTodayHighlighted="True"   SelectedDate="{Binding SelectedDateFrom,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" IsEnabled="{Binding DatePickerFromIsEnabled,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+
+
+            <TextBlock x:Name="datePicker_To_Lable" Grid.Row="4" Grid.Column="1" Text="Date to : " FontFamily="Calibri" TextAlignment="Center" VerticalAlignment="Center"/>
+            <DatePicker x:Name="datePicker_textbox_To"  IsTodayHighlighted="True"  SelectedDate="{Binding SelectedDateTo,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"  Grid.Row="5" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" IsEnabled="{Binding DatePickerToIsEnabled,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" />
+            <TextBlock x:Name="FileLocation_FirstUser" Grid.Row="1" Grid.Column="2" Text="User1 -> File Location : " FontFamily="Calibri"  TextAlignment="Right" VerticalAlignment="Center"/>
+            <TextBlock x:Name="FileLocation_FirstUserLocation" Grid.Row="1" Grid.Column="3" Text="{Binding FileLoc1,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" FontFamily="Calibri" TextAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock x:Name="FileLocation_SecondUser" Grid.Row="3" Grid.Column="2" Text="User2 -> File Location : " FontFamily="Calibri" TextAlignment="Right" VerticalAlignment="Center"/>
+            <TextBlock x:Name="FileLocation_SecondUserLocation" Grid.Row="3" Grid.Column="3" Text="{Binding FileLoc2,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" FontFamily="Calibri" TextAlignment="Left" VerticalAlignment="Center"/>
+            <!--<Button x:Name="Comparer_Button" Grid.Row="5" Content="GetFile" Command="{Binding ButtonClickCommand}" CommandParameter="GetFile" IsEnabled="{Binding IsDataFromFileSelectedRadioBtnFlag,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>-->
+            <TextBlock x:Name="percentage_comparison_User1"  Grid.Row="5" Grid.Column="3" Text="{Binding PercentageThroughPutUser1,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" FontFamily="Calibri" TextAlignment="Left" VerticalAlignment="Top" HorizontalAlignment="Left" Width="500" Margin="2,0,0,0"/>
+            <TextBlock x:Name="percentage_comparison_User2"  Grid.Row="5" Grid.Column="3" Text="{Binding PercentageThroughPutUser2,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" FontFamily="Calibri" TextAlignment="Left" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="500" Margin="2,5,0,2"/>
+            <TextBlock x:Name="ThresholdDiff_TextBlock" Grid.Row="0" Grid.Column="1" Text="Threshold Value " FontFamily="Calibri" TextAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox x:Name="DiffTh_Input_TextBox" TextAlignment="Center" FontFamily="Calibri" Foreground="Black" BorderThickness="1" BorderBrush="Azure" Text="{Binding ThresholdValueSet,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"  Grid.Row="1" Grid.Column="1" Margin="2,1,2,1"/>
+            <Button x:Name="Fetch_Data_Button" Grid.Row="5" Grid.Column="2" Content="Build Cache" Command="{Binding ButtonClickCommand}" CommandParameter="Cache" IsEnabled="{Binding IsBuildCacheBtnEnabled,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+        </customGrid:CustomGrid>
+
+        <Button Content="Compare" 
+                Name="Compare_Button" Grid.Row="2"
+                FontSize="40" FontFamily="Times New Roman"
+                Background="SkyBlue"
+                Foreground="Teal"
+                FontWeight="ExtraBold"
+                 Command="{Binding ButtonClickCommand}" CommandParameter="Compare"  IsEnabled="{Binding IsCacheSet,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+        <DataGrid Name="dgEmp" AutoGenerateColumns="False"  Grid.Row="1"  AlternatingRowBackground="Gainsboro" ItemsSource="{Binding ResultSetObsrvColl,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" IsReadOnly="True">
+
+
+
+      
+            <DataGrid.Columns>
+                
+                <!--<DataGridTextColumn Header="Salary" Binding="{Binding DateTime}"></DataGridTextColumn>
+                <DataGridTextColumn Header="EmpNo" Binding="{Binding UserCode}"></DataGridTextColumn>
+                <DataGridTextColumn Header="EmpName" Binding="{Binding ExchangeOrderId}"></DataGridTextColumn>
+                
+                <DataGridTextColumn Header="DeptName" Binding="{Binding DeptName}"></DataGridTextColumn>-->
+
+                <DataGridTextColumn Binding="{Binding DateTime, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="LOGTIME"  Width="100"/>
+                <DataGridTextColumn Binding="{Binding GreaterValue, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="WINNER" Width="200">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background" Value="{Binding WinnerHighLightVal, Converter={StaticResource xWinnerHighLightConvertor},Mode=TwoWay}"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding StrategyTag, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="SYMBOL" Width="300"/>
+                <DataGridTextColumn Binding="{Binding ExchangeOrderIdStr, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="ORDER ID" Width="250" />
+                <DataGridTextColumn Binding="{Binding Difference, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="DIFFERENCE" Width="100"/>
+                <DataGridTextColumn Binding="{Binding MktAnalaysisParams, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="MARKET ANALYSIS PARAMS" Width="300" />
+                <DataGridTextColumn Binding="{Binding OrderPrice, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ClipboardContentBinding="{x:Null}" Header="ORDER PRICE" Width="*" />
+              
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+    </customGrid:CustomGrid>
+</Controls:MetroWindow>

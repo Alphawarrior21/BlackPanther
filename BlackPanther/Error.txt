@@ -1,0 +1,33 @@
+Message :Cannot perform '<=' operation on System.DateTime and System.String.<br/>
+StackTrace :   at System.Data.BinaryNode.BinaryCompare(Object vLeft, Object vRight, StorageType resultType, Int32 op, CompareInfo comparer)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.UnaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.BinaryNode.Eval(ExpressionNode expr, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.EvalBinaryOp(Int32 op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, Int32[] recordNos)
+   at System.Data.BinaryNode.Eval(DataRow row, DataRowVersion version)
+   at System.Data.DataExpression.Invoke(DataRow row, DataRowVersion version)
+   at System.Data.Index.AcceptRecord(Int32 record, IFilter filter)
+   at System.Data.Index.InitRecords(IFilter filter)
+   at System.Data.Index..ctor(DataTable table, IndexField[] indexFields, Comparison`1 comparison, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataTable.GetIndex(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter)
+   at System.Data.DataView.UpdateIndex(Boolean force, Boolean fireEvent)
+   at System.Data.DataView.UpdateIndex(Boolean force)
+   at System.Data.DataView.SetIndex2(String newSort, DataViewRowState newRowStates, IFilter newRowFilter, Boolean fireEvent)
+   at System.Data.DataView.SetIndex(String newSort, DataViewRowState newRowStates, IFilter newRowFilter)
+   at System.Data.DataView.set_RowFilter(String value)
+   at TraderPerformanceComparer.Assets.UserDataReaderFromDataBase.GetDataTable(Int16 userId, String dateFrom, String dateTo) in C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\Assets\UserDataReaderFromDataBase.cs:line 97
+   at TraderPerformanceComparer.Assets.FileReader.LoadDataForUserFromDataBase(Int16 user, String dateFrom, String dateTo, Int16 sequence, Boolean IsLiveDb) in C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\Assets\FileReader.cs:line 125
+Date :29-12-2017 20:11:32
+
+-----------------------------------------------------------------------------
+
+Message :String was not recognized as a valid DateTime.<br/>
+StackTrace :   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at TraderPerformanceComparer.Assets.UserDataReaderFromDataBase.GetDataTable(Int16 userId, String dateFrom, String dateTo) in C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\Assets\UserDataReaderFromDataBase.cs:line 96
+   at TraderPerformanceComparer.Assets.FileReader.LoadDataForUserFromDataBase(Int16 user, String dateFrom, String dateTo, Int16 sequence, Boolean IsLiveDb) in C:\Users\Sumit.DEVLOPERSRV001\Music\TraderPerfromanceComparer_V2.0\TraderPerformanceComparer\TraderPerformanceComparer\Assets\FileReader.cs:line 125
+Date :29-12-2017 20:22:01
+
+-----------------------------------------------------------------------------
+
